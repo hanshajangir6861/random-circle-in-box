@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+#main{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    /* position: relative; */
+}
+.circle{
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
